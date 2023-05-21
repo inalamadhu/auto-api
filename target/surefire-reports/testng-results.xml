@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-21T04:11:57Z" name="SmokeTest" finished-at="2023-05-21T04:12:00Z" duration-ms="3525">
+    <groups>
+      <group name="postproduct">
+        <method signature="Products.postProducts()[pri:0, instance:api.Products@752325ad]" name="postProducts" class="api.Products"/>
+      </group> <!-- postproduct -->
+    </groups>
+    <test started-at="2023-05-21T04:11:57Z" name="Test 1" finished-at="2023-05-21T04:12:00Z" duration-ms="3525">
+      <class name="api.Products">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:api.Products@752325ad]" started-at="2023-05-21T09:41:57Z" name="beforeMethod" finished-at="2023-05-21T09:41:57Z" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="postProducts()[pri:0, instance:api.Products@752325ad]" started-at="2023-05-21T09:41:57Z" name="postProducts" finished-at="2023-05-21T09:42:00Z" duration-ms="2650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postProducts -->
+      </class> <!-- api.Products -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- SmokeTest -->
+</testng-results>
