@@ -36,6 +36,7 @@ public class Products {
 
     @Test (enabled = true, groups="jsonfilter")
     public void getProducts(){
+
                ExtractableResponse extRes =  given()
                     .header("content-type", "application/json")
                 .when()
